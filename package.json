@@ -1,0 +1,29 @@
+{
+  "name": "jwt",
+  "version": "0.0.1",
+  "description": "node jwt",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "prod": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yevheniimoskalenko/jwt.git"
+  },
+  "keywords": [
+    "jwt"
+  ],
+  "author": "Yevhenii Moskalenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yevheniimoskalenko/jwt/issues"
+  },
+  "homepage": "https://github.com/yevheniimoskalenko/jwt#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
