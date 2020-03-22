@@ -1,11 +1,7 @@
 const jwt = require("jsonwebtoken");
 const keys = require("../keys/keys")
-const bcrypt = require('bcrypt');
-const db = {
-    "id": 1,
-    "email": "testjokerqwerty@gmail.com",
-    "password": "1qaz2wsx"
-}
+const bcrypt = require("bcrypt");
+const db = require("../db")
 module.exports.login = async (req, res) => {
     const { email, password } = req.body;
     const hash = bcrypt.hashSync(db.password, keys.SOLT);
