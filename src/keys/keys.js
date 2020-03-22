@@ -1,3 +1,4 @@
 module.exports = {
-    token: "jwt_cool"
+    SECRET: "jwt_cool",
+    SOLT: 10
 }
